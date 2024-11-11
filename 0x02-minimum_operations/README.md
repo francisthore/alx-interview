@@ -1,1 +1,1 @@
-# Minimum ops
+# Min ops
