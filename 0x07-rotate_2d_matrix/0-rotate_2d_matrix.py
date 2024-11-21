@@ -6,7 +6,7 @@ def rotate_2d_matrix(matrix):
     """
     Rotates a given n x n matrix 90 degrees clockwise in-place.
     """
-    rotated = zip(*matrix[::-1])
+    rotated = list(zip(*matrix[::-1]))
     for i in range(len(matrix)):
         matrix[i] = list(rotated[i])
 
