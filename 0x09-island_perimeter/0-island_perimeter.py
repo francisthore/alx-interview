@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+"""Island Perimiter algo"""
+
 def island_perimeter(grid):
     """Calculate perimeter."""
     width, height = len(grid[0]), len(grid)
