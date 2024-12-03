@@ -1,5 +1,6 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Island Perimiter algo"""
+
 
 def island_perimeter(grid):
     """Calculate perimeter."""
