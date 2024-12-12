@@ -6,7 +6,7 @@
 """
 
 
-def is_winner(x, nums):
+def isWinner(x, nums):
     """Determines winner of game"""
     maria_wins = 0
     ben_wins = 0
