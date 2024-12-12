@@ -7,6 +7,7 @@
 
 
 def is_winner(x, nums):
+    """Determines winner of game"""
     maria_wins = 0
     ben_wins = 0
 
@@ -41,6 +42,7 @@ def is_winner(x, nums):
 
 
 def is_prime(n):
+    """Check if num is pirme"""
     if n < 2:
         return False
     for i in range(2, int(n ** 0.5) + 1):
@@ -50,4 +52,5 @@ def is_prime(n):
 
 
 def get_primes(start, end):
+    """returns a list of primes in a range"""
     return [n for n in range(start, end + 1) if is_prime(n)]
